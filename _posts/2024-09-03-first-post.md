@@ -10,6 +10,7 @@ last_modified_at: 2024-04-13T08:06:00-05:00
 ---
 
 This is my first post on my gitblog.
+
 There has been a lot of struggles in making one of these,
 but I finally managed to make one haha.
 
