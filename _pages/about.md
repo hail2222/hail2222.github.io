@@ -2,6 +2,7 @@
 title: "about"
 permalink: /about/
 layout: single
+author_profile: true
 ---
 
 ## hail2222.github.io blog
