@@ -15,8 +15,8 @@ I completed my undergraduate studies at Sungkyunkwan University in South Korea, 
 
 
 
-<img src="https://hail2222.github.io/assets/images/about-photo.jpeg" width="200">
 
+![image-left](https://hail2222.github.io/assets/images/about-photo.jpeg){: .align-right width="100"}
 
 I'm Hailey Cho, a current master's student majoring in Data Science at the University of Michigan.
 
