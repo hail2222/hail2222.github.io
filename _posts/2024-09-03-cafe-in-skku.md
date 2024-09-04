@@ -22,7 +22,7 @@ last_modified_at: 2024-09-03T08:06:00-05:00
 *Through this experience, I became proficient in using basic frontend skills (HTML, CSS, and JavaScript), and also improved my teamwork skills. Additionally, the dedicated effort of the team over an extended period resulted in achieving the **1st place ranking** in the 1st semester presentation competition of the Korea national web development club (Likelion Univ).*
 
 
-*[See it in Github](https://github.com/hail2222/Cafe-in-SKKU)*
+***[See it in Github](https://github.com/hail2222/Cafe-in-SKKU)***
 
 ----------------
 

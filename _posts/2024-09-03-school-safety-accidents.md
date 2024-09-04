@@ -21,7 +21,7 @@ last_modified_at: 2024-09-03T08:06:00-05:00
 
 *(Tableau visualization submitted to a big data competition hosted by the **Korean Ministry of Education**, and was selected to present to government officials.)*
 
-*[See it in Github](https://github.com/hail2222/School-Safety-Accidents)*
+***[See it in Github](https://github.com/hail2222/School-Safety-Accidents)***
 
 ----------------
 
