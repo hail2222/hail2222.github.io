@@ -10,9 +10,10 @@ last_modified_at: 2024-09-03T08:06:00-05:00
 ---
 
 
-# *Annual Income Analysis & Prediction*
-
+> ## Annual Income Analysis & Prediction
 > A simple data analysis/ visualization/ prediction project, aimed at practicing handling big data using Python. 
+
+----------------
 
 ## 0. Introduction
 
