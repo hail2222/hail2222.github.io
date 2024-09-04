@@ -3,7 +3,7 @@ title:  "First Post"
 excerpt: "My first git blog post :)"
 
 categories:
-  - Blog
+  - Others
 tags:
   - Blog
 last_modified_at: 2024-04-13T08:06:00-05:00
