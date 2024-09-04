@@ -17,7 +17,7 @@ last_modified_at: 2024-09-03T08:06:00-05:00
 
 ## 0. Introduction
 
-Kaggle: Adult Census Income (https://www.kaggle.com/datasets/uciml/adult-census-income/data)
+Kaggle: Adult Census Income (<https://www.kaggle.com/datasets/uciml/adult-census-income/data>)
 
 Briefly introducing the dataset, it is a data source generated based on the U.S. Census Bureau's data. It contains 14 features, including information such as age, education level, occupation, race, gender, and income. The goal of the project is to analyze relationships or patterns among features and create and evaluate an income prediction model.
 
