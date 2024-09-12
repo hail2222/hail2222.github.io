@@ -8,7 +8,7 @@ tags:
   - Blog, projects
 
 toc: true
-toc_sticky: false
+toc_sticky: true
 
 last_modified_at: 2024-09-03T08:06:00-05:00
 ---
