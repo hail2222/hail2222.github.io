@@ -198,6 +198,8 @@ Summarizing the observed relationships of features from data analysis:
 
 Using the classification report, the performance of the three models is analyzed in detail. Looking at Precision and f1-score, Random Forest performs the best for both <=50K and >50K categories. Therefore, when predicting income with this dataset, using the Random Forest model would yield the most accurate results.
 
+#### 1) Evaluation
+
 
 
 
