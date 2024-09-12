@@ -8,7 +8,7 @@ tags:
   - Blog, projects
 
 toc: true
-toc_sticky: false
+toc_sticky: true
 
 last_modified_at: 2024-09-03T08:06:00-05:00
 ---
@@ -203,43 +203,43 @@ Using the classification report, the performance of the three models is analyzed
 
 ##### 1. Precision:
 
-	•	<=50K: 0.89
-	•	>50K: 0.74
+•	<=50K: 0.89
+•	>50K: 0.74
 
 The precision for predicting individuals earning <=50K is 0.89, which is quite high, indicating that the model is generally accurate when predicting this class. However, the precision for predicting >50K is lower at 0.74, which suggests that the model has more false positives when predicting high-income earners.
 
 ##### 2. Recall:
 
-	•	<=50K: 0.93
-	•	>50K: 0.64
+•	<=50K: 0.93
+•	>50K: 0.64
 
 Recall for the <=50K group is 0.93, meaning the model captures most of the actual <=50K earners, which is a strong result. However, the recall for >50K is only 0.64, meaning that the model is missing a significant portion of individuals who actually earn more than 50K. This suggests a higher number of false negatives for the >50K class.
 
 ##### 3. F1-Score:
 
-	•	<=50K: 0.91
-	•	>50K: 0.69
+•	<=50K: 0.91
+•	>50K: 0.69
 
 The F1-Score, which balances precision and recall, is 0.91 for <=50K, showing that the model is performing very well for this class. For >50K, the F1-Score is 0.69, reflecting a weaker performance in predicting high-income earners.
 
 ##### 4. Support:
 
-	•	<=50K: 6867
-	•	>50K: 2175
+•	<=50K: 6867
+•	>50K: 2175
 
 There is a noticeable class imbalance, with nearly three times as many <=50K earners compared to >50K earners. This class imbalance likely contributes to the lower performance in predicting the >50K class.
 
 Overall Evaluation:
 
-	•	<=50K (Low Income): The model performs excellently for this class, with high precision (0.89), recall (0.93), and F1-Score (0.91). It effectively predicts low-income individuals.
-	•	>50K (High Income): The model struggles more with high-income individuals, as seen from the lower precision (0.74), recall (0.64), and F1-Score (0.69). The model is missing many true high-income earners, and its predictions for this class are less accurate.
-	•	Class Imbalance: The support values indicate class imbalance, which is likely a significant factor in the performance disparity between the two classes.
+•	<=50K (Low Income): The model performs excellently for this class, with high precision (0.89), recall (0.93), and F1-Score (0.91). It effectively predicts low-income individuals.
+•	>50K (High Income): The model struggles more with high-income individuals, as seen from the lower precision (0.74), recall (0.64), and F1-Score (0.69). The model is missing many true high-income earners, and its predictions for this class are less accurate.
+•	Class Imbalance: The support values indicate class imbalance, which is likely a significant factor in the performance disparity between the two classes.
 
 Suggestions for Improvement:
 
-	1.	Address Class Imbalance: Methods like SMOTE, oversampling, or undersampling could help balance the data and improve the model’s performance for the >50K class.
-	2.	Use Different Metrics: Evaluating the model using additional metrics like ROC-AUC could provide better insights, especially given the imbalance.
-	3.	Tuning the Model: Adjusting the class weights or fine-tuning the decision threshold might help improve the prediction of high-income individuals.
+1.	Address Class Imbalance: Methods like SMOTE, oversampling, or undersampling could help balance the data and improve the model’s performance for the >50K class.
+2.	Use Different Metrics: Evaluating the model using additional metrics like ROC-AUC could provide better insights, especially given the imbalance.
+3.	Tuning the Model: Adjusting the class weights or fine-tuning the decision threshold might help improve the prediction of high-income individuals.
 
 Currently, the model performs well for the <=50K class, but improvement is needed for the >50K class, especially in terms of recall.
 
