@@ -1,6 +1,6 @@
 ---
 title:  "[Project] School Safety Accidents"
-excerpt: "A group schedule management service"
+excerpt: "Analysis and visualization of K-12 school accidents to minimize government payout burdens"
 
 categories:
   - projects
